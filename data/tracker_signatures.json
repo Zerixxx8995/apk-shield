@@ -1,0 +1,16 @@
+[
+  {"package_prefix": "com.google.firebase", "name": "Firebase", "category": "Analytics", "risk_level": "LOW"},
+  {"package_prefix": "com.facebook.ads", "name": "Facebook Ads", "category": "Ads", "risk_level": "MEDIUM"},
+  {"package_prefix": "com.applovin", "name": "AppLovin", "category": "Ads", "risk_level": "MEDIUM"},
+  {"package_prefix": "com.mopub", "name": "MoPub", "category": "Ads", "risk_level": "MEDIUM"},
+  {"package_prefix": "com.unity3d.ads", "name": "Unity Ads", "category": "Ads", "risk_level": "MEDIUM"},
+  {"package_prefix": "com.chartboost", "name": "Chartboost", "category": "Ads", "risk_level": "MEDIUM"},
+  {"package_prefix": "com.adcolony", "name": "AdColony", "category": "Ads", "risk_level": "MEDIUM"},
+  {"package_prefix": "io.branch", "name": "Branch", "category": "Attribution", "risk_level": "LOW"},
+  {"package_prefix": "com.onesignal", "name": "OneSignal", "category": "Analytics", "risk_level": "LOW"},
+  {"package_prefix": "com.segment", "name": "Segment", "category": "Analytics", "risk_level": "LOW"},
+  {"package_prefix": "com.mixpanel", "name": "Mixpanel", "category": "Analytics", "risk_level": "LOW"},
+  {"package_prefix": "com.amplitude", "name": "Amplitude", "category": "Analytics", "risk_level": "LOW"},
+  {"package_prefix": "com.crashlytics", "name": "Crashlytics", "category": "Crash Reporting", "risk_level": "LOW"},
+  {"package_prefix": "com.adjust", "name": "Adjust", "category": "Attribution", "risk_level": "LOW"}
+]

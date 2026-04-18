@@ -1,0 +1,20 @@
+{
+  "android.permission.READ_PHONE_STATE": {"weight": 9.5, "category": "DANGEROUS"},
+  "android.permission.SEND_SMS": {"weight": 9.0, "category": "DANGEROUS"},
+  "android.permission.READ_SMS": {"weight": 8.5, "category": "DANGEROUS"},
+  "android.permission.RECEIVE_SMS": {"weight": 8.5, "category": "DANGEROUS"},
+  "android.permission.GET_TASKS": {"weight": 8.0, "category": "DANGEROUS"},
+  "android.permission.RECORD_AUDIO": {"weight": 7.5, "category": "DANGEROUS"},
+  "android.permission.ACCESS_FINE_LOCATION": {"weight": 7.0, "category": "DANGEROUS"},
+  "android.permission.RECEIVE_BOOT_COMPLETED": {"weight": 7.0, "category": "DANGEROUS"},
+  "android.permission.READ_CONTACTS": {"weight": 6.5, "category": "DANGEROUS"},
+  "android.permission.PROCESS_OUTGOING_CALLS": {"weight": 6.5, "category": "DANGEROUS"},
+  "android.permission.READ_CALL_LOG": {"weight": 6.5, "category": "DANGEROUS"},
+  "android.permission.WRITE_EXTERNAL_STORAGE": {"weight": 6.0, "category": "DANGEROUS"},
+  "android.permission.CAMERA": {"weight": 6.0, "category": "DANGEROUS"},
+
+  "android.permission.ACCESS_COARSE_LOCATION": {"weight": 4.0, "category": "SUSPICIOUS"},
+  "android.permission.READ_CALENDAR": {"weight": 3.0, "category": "SUSPICIOUS"},
+  "android.permission.WRITE_CONTACTS": {"weight": 3.0, "category": "SUSPICIOUS"},
+  "android.permission.USE_BIOMETRIC": {"weight": 2.5, "category": "SUSPICIOUS"}
+}

@@ -1,0 +1,19 @@
+[
+  {"api": "getDeviceId", "risk_level": "HIGH", "points": 10},
+  {"api": "getLine1Number", "risk_level": "HIGH", "points": 10},
+  {"api": "sendTextMessage", "risk_level": "HIGH", "points": 10},
+  {"api": "getSubscriberId", "risk_level": "HIGH", "points": 10},
+  {"api": "getLastKnownLocation", "risk_level": "HIGH", "points": 10},
+  {"api": "getSimSerialNumber", "risk_level": "HIGH", "points": 10},
+  {"api": "execShell", "risk_level": "HIGH", "points": 10},
+  {"api": "exec", "risk_level": "HIGH", "points": 10},
+  {"api": "getInstalledPackages", "risk_level": "HIGH", "points": 10},
+  {"api": "setWifiEnabled", "risk_level": "HIGH", "points": 10},
+  {"api": "HttpPost", "risk_level": "HIGH", "points": 10},
+  {"api": "openConnection", "risk_level": "HIGH", "points": 10},
+
+  {"api": "getNetworkInfo", "risk_level": "MEDIUM", "points": 5},
+  {"api": "getCellLocation", "risk_level": "MEDIUM", "points": 5},
+  {"api": "listen", "risk_level": "MEDIUM", "points": 5},
+  {"api": "PackageInstaller", "risk_level": "MEDIUM", "points": 5}
+]
