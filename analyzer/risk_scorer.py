@@ -7,21 +7,16 @@ except ImportError:
     
 def normalize_score(score):
     """Normalize unbounded score to 0-100 range deterministically."""
-    # Using a simple log-like function or capped linear
-    # 0 -> 0
-    # 50 -> 50
-    # 150 -> 90
-    # 300+ -> 100
     if score == 0:
         return 0
-    elif score <= 60:
+    elif score <= 40:
         return score
-    elif score <= 120:
-        return 60 + (score - 60) * 0.5
+    elif score <= 100:
+        return 40 + (score - 40) * 0.5
     elif score <= 200:
-        return 90 + (score - 120) * 0.1
+        return 70 + (score - 100) * 0.2
     else:
-        return min(100, 95 + (score - 200) * 0.05)
+        return min(100, 90 + (score - 200) * 0.05)
 
 def get_risk_label(score):
     if score <= 25: return "LOW RISK"

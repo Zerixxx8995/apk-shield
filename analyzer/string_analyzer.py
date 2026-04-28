@@ -18,6 +18,7 @@ def analyze_strings(dvm_array, apk_obj, check_headers=False):
     urls = set()
     ips = set()
     secrets = []
+    seen_secrets = set()
     
     score = 0
     
@@ -31,19 +32,26 @@ def analyze_strings(dvm_array, apk_obj, check_headers=False):
             # IPs
             for match in ip_pattern.finditer(string_value):
                 ips.add(match.group())
-            # Secrets
             if google_key_pattern.search(string_value):
-                secrets.append({"type": "Google API Key", "value": string_value, "redacted": string_value[:6] + "********"})
-                score += 10
+                if string_value not in seen_secrets:
+                    seen_secrets.add(string_value)
+                    secrets.append({"type": "Google API Key", "value": string_value, "redacted": string_value[:6] + "********"})
+                    score += 5
             if aws_key_pattern.search(string_value):
-                secrets.append({"type": "AWS Key", "value": string_value, "redacted": string_value[:6] + "********"})
-                score += 20
+                if string_value not in seen_secrets:
+                    seen_secrets.add(string_value)
+                    secrets.append({"type": "AWS Key", "value": string_value, "redacted": string_value[:6] + "********"})
+                    score += 15
             if firebase_pattern.search(string_value):
-                secrets.append({"type": "Firebase URL", "value": string_value, "redacted": string_value[:15] + "********"})
-                score += 10
+                if string_value not in seen_secrets:
+                    seen_secrets.add(string_value)
+                    secrets.append({"type": "Firebase URL", "value": string_value, "redacted": string_value[:15] + "********"})
+                    score += 5
             if private_key_pattern.search(string_value):
-                secrets.append({"type": "Private Key", "value": "Found RSA/EC Key", "redacted": "-----BEGIN PRIVATE KEY-----****"})
-                score += 30
+                if string_value not in seen_secrets:
+                    seen_secrets.add(string_value)
+                    secrets.append({"type": "Private Key", "value": "Found RSA/EC Key", "redacted": "-----BEGIN PRIVATE KEY-----****"})
+                    score += 20
 
     url_list = []
     for u in urls:

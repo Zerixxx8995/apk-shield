@@ -15,7 +15,12 @@ def train_and_save():
     
     # Dummy data for demonstration
     X = np.random.randint(0, 2, size=(1000, 30))
-    y = np.random.randint(0, 2, size=(1000,))
+    # Create somewhat realistic labels: if >5 flags trigger, it's malware
+    y = (np.sum(X, axis=1) > 5).astype(int)
+    
+    # Force some all-zero entries to be clean to anchor the model
+    X[:100] = 0
+    y[:100] = 0
     
     clf = RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)
     

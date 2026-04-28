@@ -32,11 +32,11 @@ def analyze_components(apk_obj):
     
     if has_boot_completed_receiver and len(services) > 0:
         patterns.append({
-            "tag": "Persistence / C2 Communication attempt",
+            "tag": "Persistence",
             "desc": "Found RECEIVE_BOOT_COMPLETED coupled with Background Services",
-            "severity": "CRITICAL"
+            "severity": "MEDIUM"
         })
-        score += 20
+        score += 8
         
     if has_sms_received_receiver and any("SEND_SMS" in p for p in requested_perms):
         patterns.append({

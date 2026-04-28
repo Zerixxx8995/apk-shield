@@ -7,7 +7,10 @@ def analyze_opcodes(analysis_obj, enable_deep=False):
     total_instructions = 0
     
     for method in analysis_obj.get_methods():
-        if method.get_method().get_code() is None:
+        if method.is_external():
+            continue
+        m = method.get_method()
+        if not hasattr(m, 'get_code') or m.get_code() is None:
             continue
         try:
             for ins in method.get_instructions():
@@ -24,7 +27,7 @@ def analyze_opcodes(analysis_obj, enable_deep=False):
         return {"obfuscation_risk": False, "score": 0, "indicators": counts}
         
     suspicious_freq = sum(counts.values()) / total_instructions
-    obfuscation_risk = suspicious_freq > 0.05 # 5% heuristic
+    obfuscation_risk = suspicious_freq > 0.12 # 12% heuristic
     
     return {
         "obfuscation_risk": obfuscation_risk,

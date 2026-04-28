@@ -31,7 +31,7 @@ def analyze_api_calls(analysis_obj):
         
         # Check against config
         for api_conf in config:
-            if api_conf["api"] in method_name:
+            if api_conf["api"] == method_name:
                 sig = (method_name, class_name)
                 if sig not in seen:
                     seen.add(sig)
