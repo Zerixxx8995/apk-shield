@@ -13,7 +13,7 @@ def analyze_opcodes(analysis_obj, enable_deep=False):
         if not hasattr(m, 'get_code') or m.get_code() is None:
             continue
         try:
-            for ins in method.get_instructions():
+            for ins in m.get_instructions():
                 total_instructions += 1
                 op_name = ins.get_name()
                 if isinstance(op_name, bytes):
@@ -24,7 +24,7 @@ def analyze_opcodes(analysis_obj, enable_deep=False):
             pass
             
     if total_instructions == 0:
-        return {"obfuscation_risk": False, "score": 0, "indicators": counts}
+        return {"obfuscation_risk": False, "score": 0, "indicators": counts, "total_instructions": 0}
         
     suspicious_freq = sum(counts.values()) / total_instructions
     obfuscation_risk = suspicious_freq > 0.12 # 12% heuristic
