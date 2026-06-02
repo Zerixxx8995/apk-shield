@@ -1,16 +1,3554 @@
 [
-  {"package_prefix": "com.google.firebase", "name": "Firebase", "category": "Analytics", "risk_level": "LOW"},
-  {"package_prefix": "com.facebook.ads", "name": "Facebook Ads", "category": "Ads", "risk_level": "MEDIUM"},
-  {"package_prefix": "com.applovin", "name": "AppLovin", "category": "Ads", "risk_level": "MEDIUM"},
-  {"package_prefix": "com.mopub", "name": "MoPub", "category": "Ads", "risk_level": "MEDIUM"},
-  {"package_prefix": "com.unity3d.ads", "name": "Unity Ads", "category": "Ads", "risk_level": "MEDIUM"},
-  {"package_prefix": "com.chartboost", "name": "Chartboost", "category": "Ads", "risk_level": "MEDIUM"},
-  {"package_prefix": "com.adcolony", "name": "AdColony", "category": "Ads", "risk_level": "MEDIUM"},
-  {"package_prefix": "io.branch", "name": "Branch", "category": "Attribution", "risk_level": "LOW"},
-  {"package_prefix": "com.onesignal", "name": "OneSignal", "category": "Analytics", "risk_level": "LOW"},
-  {"package_prefix": "com.segment", "name": "Segment", "category": "Analytics", "risk_level": "LOW"},
-  {"package_prefix": "com.mixpanel", "name": "Mixpanel", "category": "Analytics", "risk_level": "LOW"},
-  {"package_prefix": "com.amplitude", "name": "Amplitude", "category": "Analytics", "risk_level": "LOW"},
-  {"package_prefix": "com.crashlytics", "name": "Crashlytics", "category": "Crash Reporting", "risk_level": "LOW"},
-  {"package_prefix": "com.adjust", "name": "Adjust", "category": "Attribution", "risk_level": "LOW"}
+  {
+    "package_prefix": "admost.adserver",
+    "name": "Admost",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "admost.sdk",
+    "name": "Admost",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "cn.thinkingdata",
+    "name": "ThinkingData Analytics",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "co.acoustic.mobile.push.sdk",
+    "name": "IBM Mobile Marketing (Acoustic)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "coelib.c.couluslibrary",
+    "name": "Coulus Coelib",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.aarki",
+    "name": "Aarki",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.acuant.acuantcamera",
+    "name": "Acuant",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.ad4screen.sdk",
+    "name": "Ad4Screen",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adadapted.android.sdk",
+    "name": "AdAdapted",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adcash.mobileads",
+    "name": "Adcash",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adcenix",
+    "name": "Adcenix",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adcolony",
+    "name": "AdColony",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adgatemedia",
+    "name": "AdGateMedia",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adgem.android",
+    "name": "AdGem",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adlocus",
+    "name": "AdLocus",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.admarvel",
+    "name": "AdMarvel",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.admixer",
+    "name": "Admixer",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.admuing.danmaku",
+    "name": "AdMuing",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adobe.adms.measurement",
+    "name": "Omniture",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adsdk.sdk",
+    "name": "MobFox",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adsmogo",
+    "name": "Alimama (formerly AdsMogo)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adtiming",
+    "name": "AdTiming",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adtrial.sdk",
+    "name": "AdTrial",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adxcorp.ads",
+    "name": "AD(X)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.adxcorp.nativead",
+    "name": "AD(X)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.aerserv.sdk",
+    "name": "AerServ",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.aiming.mdt",
+    "name": "AdTiming",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.airpush",
+    "name": "Airpush",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.alimama",
+    "name": "Alimama (formerly AdsMogo)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.altamob.sdk",
+    "name": "Altamob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.amap.api",
+    "name": "AutoNavi / Amap",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.anagog.jedai",
+    "name": "Anagog",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.ansca.corona",
+    "name": "Solar2D (Corona)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.anvato.androidsdk",
+    "name": "Anvato (A Google Company)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.anysdk.framework.AdsWrapper",
+    "name": "AnySDK",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.anysdk.framework.AnalyticsWrapper",
+    "name": "AnySDK",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.appboy",
+    "name": "Braze (formerly Appboy)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.appdynamics",
+    "name": "Appdynamics",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.applovin",
+    "name": "AppLovin",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.appsee",
+    "name": "AppSee",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.appsgeyser.multiTabApp.VideoPlayerActivity",
+    "name": "AppsGeyser",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.appsgeyser.sdk",
+    "name": "AppsGeyser",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.apptalkingdata.push",
+    "name": "TalkingData",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.appvador.ads",
+    "name": "AppVador",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.apsalar.sdk",
+    "name": "Apsalar",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.batch.android",
+    "name": "Batch",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.bazaarvoice.bvandroidsdk",
+    "name": "Bazaarvoice",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.beaconsinspace.android.beacon.detector",
+    "name": "BeaconsInSpace (Fysical)",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.beintoo.nucleon",
+    "name": "Beintoo",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.blesh.sdk",
+    "name": "Blesh",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.bluecats.sdk",
+    "name": "Bluecats",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.buzzvil",
+    "name": "BuzzAd Benefit",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.bytedance",
+    "name": "Pangle",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.calldorado.android",
+    "name": "CallDorado",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.carto",
+    "name": "Carto (formerly Nutiteq)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.cauly.android.ad",
+    "name": "Cauly",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.cedexis",
+    "name": "Cedexis Radar",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.chartboost",
+    "name": "Chartboost",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.cifrasoft",
+    "name": "Cifrasoft",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.clevertap",
+    "name": "CleverTap",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.comscore",
+    "name": "ComScore",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.connecthings.herow",
+    "name": "Herow",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.cooladata.android",
+    "name": "CoolaData",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.cuebiq.cuebiqsdk.model.Collector",
+    "name": "Cuebiq",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.cuebiq.cuebiqsdk.receiver.CoverageReceiver",
+    "name": "Cuebiq",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.dv.DVSDK",
+    "name": "DOV-E",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.esri.arcgisruntime",
+    "name": "Esri ArcGIS",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.estimote",
+    "name": "Estimote",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.explorestack",
+    "name": "Appodeal Stack",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.facebook.accountkit",
+    "name": "AccountKit",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.facebook.ads",
+    "name": "Facebook Ads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.facebook.login",
+    "name": "Facebook Login",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.fineboost",
+    "name": "fineboost",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.flowsense.flowsensesdk",
+    "name": "Flowsense",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.flurry",
+    "name": "Flurry",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.footmarks.footmarkssdkm2",
+    "name": "Footmarks",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.foursquare.pilgrim",
+    "name": "Pilgrim by Foursquare",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.foursquare.pilgrimsdk.android",
+    "name": "Pilgrim by Foursquare",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.fsn.cauly",
+    "name": "Cauly",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.fyber",
+    "name": "Fyber",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.gameanalytics.sdk",
+    "name": "GameAnalytics",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.gametalkingdata.push",
+    "name": "TalkingData",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.glossomads.sdk",
+    "name": "Adfurikun",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.glympse.android",
+    "name": "Glympse",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.gomfactory.adpie",
+    "name": "GOM Factory AdPie",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.ads",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.android.ads",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.android.gms.admob",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.android.gms.ads.AdActivity",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.android.gms.ads.AdRequest",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.android.gms.ads.AdView",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.android.gms.ads.doubleclick",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.android.gms.ads.mediation",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.firebase.firebase_ads",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.google.unity.ads",
+    "name": "Google AdMob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.hound",
+    "name": "Houndify",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.agconnect",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.hms.analytics",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.hms.flutter.analytics",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.hms.location",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.hms.plugin.ads",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.hms.plugin.analytics",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.hms.support.api.push",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.huawei.updatesdk",
+    "name": "Huawei Mobile Services (HMS) Core",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.hypertrack",
+    "name": "HyperTrack",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.hypertracklive",
+    "name": "HyperTrack",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.hyprmx.android.sdk",
+    "name": "HyprMX",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.iab.omid.library",
+    "name": "IAB Open Measurement",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.ibm.mce.sdk",
+    "name": "IBM Mobile Marketing (Acoustic)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.igaworks.adbrix",
+    "name": "Adbrix",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.igaworks.adpopcorn",
+    "name": "adPOPcorn",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.igaworks.ssp",
+    "name": "adPOPcorn",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.indooratlas.android.sdk",
+    "name": "IndoorAtlas",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.inneractive.api.ads",
+    "name": "Inneractive",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.innoquant.moca",
+    "name": "MOCA",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.instreamatic",
+    "name": "Instreamatic (Adman)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.ipqualityscore",
+    "name": "IPQualityScore",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.iqzone",
+    "name": "IQzone",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.janrain.android",
+    "name": "Janrain",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.janrain.android.capture",
+    "name": "Janrain",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.janrain.android.engage",
+    "name": "Janrain",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.jirbo.adcolony",
+    "name": "AdColony",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.jumio.MobileSDK",
+    "name": "Jumio",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.jumptap.adtag",
+    "name": "JumpTap",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.kidoz.sdk",
+    "name": "KIDOZ",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.kochava.android.tracker",
+    "name": "Kochava",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.kochava.base",
+    "name": "Kochava",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.krux.androidsdk",
+    "name": "Audience Studio (Krux)",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.leanplum",
+    "name": "LeanPlum",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.lenddo.mobile",
+    "name": "Lenddo",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.localytics.android",
+    "name": "Localytics",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.localytics.androidx",
+    "name": "Localytics",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.localytics.react",
+    "name": "Localytics",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.loopme",
+    "name": "LoopMe",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.lotadata.moments",
+    "name": "LotaData",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mbridge.msdk",
+    "name": "Mintegral",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mdotm.android",
+    "name": "MDOTM",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mediabrix.android",
+    "name": "Receptiv (formerly Mediabrix)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mediba.jp",
+    "name": "mediba",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.metaps",
+    "name": "Metaps",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mintegral",
+    "name": "Mintegral",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.moat.analytics.mobile",
+    "name": "Moat",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mobfox",
+    "name": "MobFox",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mobpower",
+    "name": "MobPower",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mobvista",
+    "name": "Mobvista",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.moodmedia",
+    "name": "Moodmedia",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mopinion.mopinionsdk",
+    "name": "Mopinion",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.mopub",
+    "name": "MoPub",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.my.target",
+    "name": "myTarget",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.noqoush.adfalcon.android.sdk",
+    "name": "AdFalcon",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.npaw.youbora",
+    "name": "Analytics by NPAW (Youbora Suite)",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.nutiteq",
+    "name": "Carto (formerly Nutiteq)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.oath.mobile",
+    "name": "Verizon Ads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.offertoro.sdk",
+    "name": "OfferToro",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.omniture",
+    "name": "Omniture",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.oneaudience.sdk",
+    "name": "OneAudience",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.ooyala",
+    "name": "Ooyala",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.openlocate",
+    "name": "OpenLocate",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.opensignal.datacollection",
+    "name": "Opensignal",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.openx.android_sdk_openx",
+    "name": "OpenX",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.openx.view.plugplay",
+    "name": "OpenX",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pangle.global",
+    "name": "Pangle",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pgl",
+    "name": "Pangle",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pincrux",
+    "name": "Pincrux",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pingstart.adsdk",
+    "name": "PingStart",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.placer.client.Placer",
+    "name": "Placer",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pointinside",
+    "name": "Point Inside",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pokkt.sdk",
+    "name": "POKKT",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pollfish",
+    "name": "Pollfish",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.prime31.IAB",
+    "name": "IAB Open Measurement",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.prime31.util.IabHelperImpl",
+    "name": "IAB Open Measurement",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pubmatic.sdk",
+    "name": "PubMatic",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pure.internal",
+    "name": "Unacast Pure",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.pure.sdk",
+    "name": "Unacast Pure",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.purplebrain.adbuddiz.sdk",
+    "name": "AdBuddiz",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.quantcast.measurement.service",
+    "name": "Quantcast",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.redbricklane.zapr",
+    "name": "Zapr",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.revmob.ads",
+    "name": "Revmob",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.rjfun.cordova.ad",
+    "name": "RjFun",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.rjfun.cordova.admob",
+    "name": "RjFun",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.roximity.sdk",
+    "name": "Roximity",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.safegraph",
+    "name": "OpenLocate",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.segment.analytics",
+    "name": "Segment",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.sense360.android",
+    "name": "Sense360",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.skplanet.tad",
+    "name": "SK planet Tad",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.smartlook.sdk.smartlook",
+    "name": "SmartLook",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.snap.adkit",
+    "name": "Snap Ad Kit",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.snap.appadskit",
+    "name": "Snap Ad Kit",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.snapchat.kit.sdk.SnapLogin",
+    "name": "Snapchat Login Kit",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.socdm.d.adgeneration",
+    "name": "Ad Generation",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.startapp",
+    "name": "Startapp",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.stepleaderdigital.reveal",
+    "name": "Reveal Mobile",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.swrve.sdk",
+    "name": "Swrve",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.synerise.sdk",
+    "name": "Synerise",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.talkingdata.adtracking",
+    "name": "TalkingData",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.talkingdata.appanalytics",
+    "name": "TalkingData",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.talkingdata.sdk",
+    "name": "TalkingData",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tapdaq.adapters",
+    "name": "Tapdaq",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tapdaq.sdk",
+    "name": "Tapdaq",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.taplytics.sdk",
+    "name": "Taplytics",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tappx.sdk.android",
+    "name": "Tappx",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tapr.helpers",
+    "name": "TapResearch",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tapr.internal",
+    "name": "TapResearch",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tapr.sdk",
+    "name": "TapResearch",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.telescope.android",
+    "name": "PredicIO",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tendcloud.appcpa",
+    "name": "TalkingData",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tendcloud.tenddata",
+    "name": "TalkingData",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.threesixtydialog.sdk",
+    "name": "360Dialog",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.tnkfactory.ad",
+    "name": "TNK Factory",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.treasuredata",
+    "name": "Treasure Data",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.trid.tridad",
+    "name": "Cauly",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.unity3d.ads",
+    "name": "Unity Ads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.unity3d.services",
+    "name": "Unity3d Ads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.upsight.android",
+    "name": "Upsight",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.usebutton.sdk",
+    "name": "Button",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.uxcam",
+    "name": "UXCam",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vdopia.ads",
+    "name": "Vdopia",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vdopia.client.android",
+    "name": "Vdopia",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.verizon.ads",
+    "name": "Verizon Ads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.verizondigitalmedia.mobile",
+    "name": "Verizon Ads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vervewireless.advert",
+    "name": "Verve",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.virgo.ads",
+    "name": "Virgo Mobile",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vk.api.sdk",
+    "name": "VKontakte SDK",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vk.sdk",
+    "name": "VKontakte SDK",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vpadn.ads",
+    "name": "Vpon",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vpadn.analytics",
+    "name": "Vpon",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vpadn.widget",
+    "name": "Vpon",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vpon.ads",
+    "name": "Vpon",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vungle.publisher",
+    "name": "Vungle",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.vungle.warren",
+    "name": "Vungle",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.wirelessregistry.observersdk",
+    "name": "SignalFrame",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.xtify.android.sdk",
+    "name": "IBM Mobile Marketing (Acoustic)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.xtify.mce.sdk",
+    "name": "IBM Mobile Marketing (Acoustic)",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.yandex.mobile.ads",
+    "name": "Yandex Ad",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.yinzcam.sobek",
+    "name": "Yinzcam Sobek",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.yoadx.yoadx",
+    "name": "Yoadx",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.yoc.visx",
+    "name": "YOC VIS.X",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.yume.android",
+    "name": "YuMe",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "com.zendrive.sdk",
+    "name": "Zendrive",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.adjoe.protection",
+    "name": "Adjoe",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.adjoe.sdk",
+    "name": "Adjoe",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.bidmachine",
+    "name": "BidMachine",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.huq.sourcekit",
+    "name": "Huq Sourcekit",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.hypertrack",
+    "name": "HyperTrack",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.mysdk",
+    "name": "X-Mode",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.predic.tracker",
+    "name": "PredicIO",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.proximi.proximiiolibrary",
+    "name": "Proximi.io",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.vectaury",
+    "name": "Vectaury",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.xmode.BcnConfig",
+    "name": "X-Mode",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "io.xmode.locationsdk",
+    "name": "X-Mode",
+    "category": "Location",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "jp.co.geniee.gnadsdk",
+    "name": "Geniee",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "jp.tjkapp.adfurikunsdk",
+    "name": "Adfurikun",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "kochavaccpa",
+    "name": "Kochava",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "ly.count.android",
+    "name": "Countly",
+    "category": "Profiling",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "me.actv8",
+    "name": "Actv8me",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "me.kiip.sdk",
+    "name": "Kiip",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "mediba.ad.sdk.android.openx",
+    "name": "mediba",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "net.admixer.sdk",
+    "name": "Admixer",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "net.nend.android",
+    "name": "nend",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "net.nend.unity",
+    "name": "nend",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "net.pubnative",
+    "name": "PubNative",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "net.veloxity",
+    "name": "Veloxity",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "org.prebid.mobile",
+    "name": "Prebid Mobile",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "ru.tachos.admitadstatisticsdk",
+    "name": "Admitad",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "teads.tv",
+    "name": "Teads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "tv.freewheel.ad",
+    "name": "FreeWheel",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "tv.superawesome.lib",
+    "name": "SuperAwesome",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "tv.superawesome.sdk",
+    "name": "SuperAwesome",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "tv.teads",
+    "name": "Teads",
+    "category": "Ads",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "package_prefix": "LigatusManager",
+    "name": "Ligatus",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "LigatusViewClient",
+    "name": "Ligatus",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "S4MAnalytic",
+    "name": "S4M",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "adswizz",
+    "name": "AdsWizz",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "au.com.oztam",
+    "name": "OzTAM",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "backtraceio.library",
+    "name": "Backtrace",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "ch.acra",
+    "name": "ACRA",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "cn.jpush.android",
+    "name": "JiGuang Aurora Mobile JPush",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "co.enhance.Enhance",
+    "name": "Enhance",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "co.vmob.sdk",
+    "name": "Plexure",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.abtasty",
+    "name": "ABTasty",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.acrcloud",
+    "name": "ACRCloud",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adform.sdk",
+    "name": "Adform",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adincube.sdk",
+    "name": "Adincube",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adjust",
+    "name": "Adjust",
+    "category": "Attribution",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adjust.android.sdk",
+    "name": "Adjust",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adjust.sdk",
+    "name": "Adjust",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adobe.marketing.mobile",
+    "name": "Adobe Experience Cloud",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adobe.mobile.Analytics",
+    "name": "Demdex",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adobe.mobile.Config",
+    "name": "Demdex",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.adotmob",
+    "name": "Adot",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.akamai.android.sdk.AkaMap",
+    "name": "Akamai MAP",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.altbeacon.beacon",
+    "name": "AltBeacon",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amazon.device.ads",
+    "name": "Amazon Advertisement",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amazon.device.associates",
+    "name": "Amazon Mobile Associates",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amazon.insights",
+    "name": "Amazon Analytics (Amazon insights)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amazonaws.mobileconnectors.amazonmobileanalytics",
+    "name": "Amazon Analytics (Amazon insights)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amazonaws.mobileconnectors.pinpoint.analytics",
+    "name": "Amazon Analytics (Amazon insights)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amoad",
+    "name": "AMoAd",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amobee",
+    "name": "Amobee",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amplifyframework.analytics",
+    "name": "Amazon Mobile Analytics (Amplify)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.amplitude",
+    "name": "Amplitude",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.appbrain",
+    "name": "AppBrain",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.appcelerator.aps",
+    "name": "Appcelerator Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.applause.android",
+    "name": "Applause",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.appnext.sdk",
+    "name": "Appnext",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.appnexus.opensdk",
+    "name": "AppNexus",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.appodeal.ads",
+    "name": "Appodeal",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.appodealx",
+    "name": "Appodeal",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.appsflyer",
+    "name": "AppsFlyer",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.apptentive",
+    "name": "Apptentive",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.apptimize",
+    "name": "Apptimize",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.areametrics.areametricssdk",
+    "name": "Areametrics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.areametrics.nosdkandroid",
+    "name": "Areametrics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.atinternet",
+    "name": "ATInternet",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.auditude.ads",
+    "name": "Auditude",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.avocarrot.sdk",
+    "name": "Glispa Connect (Formerly Avocarrot)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.axonix.android.sdk",
+    "name": "Axonix",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.backelite.android",
+    "name": "Backelite",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.backelite.bkdroid",
+    "name": "Backelite",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.baidu.BaiduMap",
+    "name": "Baidu Maps",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.baidu.appx",
+    "name": "Baidu APPX",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.baidu.location",
+    "name": "Baidu Location",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.baidu.mapapi",
+    "name": "Baidu Map",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.baidu.mobads",
+    "name": "Baidu Mobile Ads",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.baidu.mobstat",
+    "name": "Baidu Mobile Stat",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.baidu.navi",
+    "name": "Baidu Navigation",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.beaconinside.proximitysdk.ProximityService",
+    "name": "Square Metrics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.bitly.Bitly",
+    "name": "Bitly",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.blueconic",
+    "name": "BlueConic",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.bluekai.sdk",
+    "name": "BlueKai (acquired by Oracle)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.brightcove",
+    "name": "Brightcove",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.bugfender.sdk",
+    "name": "Bugfender",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.bugsee.library.Bugsee",
+    "name": "Bugsee",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.bugsense.trace",
+    "name": "BugSense",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.bugsnag",
+    "name": "Bugsnag",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.carnival.sdk",
+    "name": "Carnival",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.carnivalmobile",
+    "name": "Carnival",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.chartbeat.androidsdk",
+    "name": "Chartbeat",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.chartboost.sdk",
+    "name": "ChartBoost",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.cloudtech",
+    "name": "Cloudmobi",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.cmcm",
+    "name": "Cheetah Ads",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.co.shallwead.sdk",
+    "name": "ShallWeAD",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.codahale.metrics",
+    "name": "Metrics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.conversantmedia",
+    "name": "Conversant",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.conviva",
+    "name": "Conviva",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.crashlytics",
+    "name": "Crashlytics",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.criteo",
+    "name": "Criteo",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.crittercism.app.Crittercism",
+    "name": "Apteligent by VMWare (formerly Crittercism)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.danielcwilson.plugins.analytics",
+    "name": "Google Analytics Plugin (Cordova)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.databerries",
+    "name": "Teemo",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.deltadna",
+    "name": "deltaDNA",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.digitalanalytics",
+    "name": "IBM Digital Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.duapps",
+    "name": "Duapps",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.dynamicyield",
+    "name": "Dynamic Yield",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.dynatrace.agent",
+    "name": "Dynatrace",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.dynatrace.android.app",
+    "name": "Dynatrace",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.dynatrace.tools",
+    "name": "Dynatrace",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.emarsys.predict",
+    "name": "Emarsys Predict",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.ensighten",
+    "name": "Ensighten",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.eulerian.android.sdk",
+    "name": "Eulerian",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.exacttarget",
+    "name": "ExactTarget",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.exponea.sdk",
+    "name": "Exponea",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.CampaignTrackingReceiver",
+    "name": "Facebook Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.appevents",
+    "name": "Facebook Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.audiencenetwork",
+    "name": "Facebook Audience",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.flipper",
+    "name": "Facebook Flipper",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.marketing",
+    "name": "Facebook Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.notifications",
+    "name": "Facebook Notifications",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.places",
+    "name": "Facebook Places",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.facebook.share",
+    "name": "Facebook Share",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.factual.Factual",
+    "name": "Factual",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.factual.engine",
+    "name": "Factual",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fidzup",
+    "name": "FidZup",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fiksu.asotracking",
+    "name": "Fiksu",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fluzo.sdk",
+    "name": "FLUZO",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.flymob.sdk",
+    "name": "flymob",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.followanalytics",
+    "name": "FollowAnalytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.foresee.sdk.ForeSee",
+    "name": "Foresee",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fullstory.FS",
+    "name": "fullstory",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fullstory.FSSessionData",
+    "name": "fullstory",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fullstory.instrumentation",
+    "name": "fullstory",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fullstory.jni",
+    "name": "fullstory",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fullstory.rust",
+    "name": "fullstory",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.fullstory.util",
+    "name": "fullstory",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.gemius.sdk",
+    "name": "Gemius HeatMap",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.geolocstation",
+    "name": "Teemo",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.gigya",
+    "name": "SAP CDC (Gigya)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.gimbal.android",
+    "name": "Gimbal",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.giphy.sdk.analytics",
+    "name": "GIPHY Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.giphy.sdk.tracking",
+    "name": "GIPHY Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.github.aloomaio.androidsdk",
+    "name": "Alooma",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.github.backtrace-labs",
+    "name": "Backtrace",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.github.tony19.loggly",
+    "name": "Loggly",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.github.tony19.timber.loggly",
+    "name": "Loggly",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.analytics",
+    "name": "Google Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.android.apps.analytics",
+    "name": "Google Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.android.gms.analytics",
+    "name": "Google Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.android.gms.measurement",
+    "name": "Google Firebase Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.android.gms.tagmanager",
+    "name": "Google Tag Manager",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.firebase",
+    "name": "Firebase",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.firebase.analytics.FirebaseAnalytics",
+    "name": "Google Firebase Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.firebase.crash",
+    "name": "Google CrashLytics",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.firebase.crashlytics",
+    "name": "Google CrashLytics",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.firebase.firebase_analytics",
+    "name": "Google Firebase Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.google.tagmanager",
+    "name": "Google Tag Manager",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.gpshopper",
+    "name": "GPShopper",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.greystripe.android",
+    "name": "Conversant",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.heapanalytics",
+    "name": "Heap",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.helpshift",
+    "name": "HelpShift",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.heyzap.mediation",
+    "name": "Heyzap (bought by Fyber)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.heyzap.sdk.ads",
+    "name": "Heyzap (bought by Fyber)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.infinario.android.infinariosdk",
+    "name": "Exponea",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.inlocomedia.android",
+    "name": "In Loco",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.inmarket",
+    "name": "InMarket",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.inmobi",
+    "name": "Inmobi",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.inrix.sdk",
+    "name": "Inrix",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.instabug",
+    "name": "Instabug",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.integralads.avid.library",
+    "name": "Integral Ad Science",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.intentsoftware.addapptr",
+    "name": "Add Apt Tr",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.ironsource",
+    "name": "ironSource",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.jm.co.shallwead.sdk",
+    "name": "ShallWeAD",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.joshdholtz.sentry",
+    "name": "Sentry",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.kakao.adfit",
+    "name": "AdFit (Daum)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.kissmetrics",
+    "name": "Kissmetrics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.kontakt.sdk.android",
+    "name": "Kontakt",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.ligatus.android.adframework",
+    "name": "Ligatus",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.lisnr",
+    "name": "Lisnr",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.locuslabs.sdk",
+    "name": "Locuslabs",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.longtailvideo.jwplayer",
+    "name": "JW Player",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.lotame.android",
+    "name": "Lotame",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mapbox.android.telemetry",
+    "name": "Mapbox",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mapbox.mapboxsdk.maps.TelemetryDefinition",
+    "name": "Mapbox",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mapbox.mapboxsdk.module.telemetry",
+    "name": "Mapbox",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.marketo",
+    "name": "Marketo (an Adobe Company)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.microsoft.appcenter.analytics",
+    "name": "Microsoft Visual Studio App Center Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.microsoft.appcenter.crashes",
+    "name": "Microsoft Visual Studio App Center Crashes",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.microsoft.azure.engagement",
+    "name": "Mobile Engagement",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.microsoft.azure.mobile.analytics",
+    "name": "Microsoft Visual Studio App Center Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.millennialmedia",
+    "name": "Millennial Media",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mindscapehq.android.raygun4android",
+    "name": "Raygun",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mixpanel",
+    "name": "Mixpanel",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mngads",
+    "name": "MAdvertise",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mngads.sdk",
+    "name": "MAdvertise",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mngads.views",
+    "name": "MAdvertise",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mobclix.android.sdk",
+    "name": "Axonix",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mobileapptracker",
+    "name": "Tune",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mocoplex.adlib",
+    "name": "ADLIB",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.moengage",
+    "name": "MoEngage",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.monet",
+    "name": "AppMonet",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.mparticle",
+    "name": "mParticle",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.my.tracker",
+    "name": "myTracker",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.nativex",
+    "name": "NativeX",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.newrelic.agent",
+    "name": "New Relic",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.newrelic.mobile",
+    "name": "New Relic",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.nexage.android",
+    "name": "Nexage",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.nielsen.app",
+    "name": "Nielsen",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.onesignal",
+    "name": "OneSignal",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.openback",
+    "name": "OpenBack",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.optimizely",
+    "name": "Optimizely",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.otherlevels",
+    "name": "OtherLevels",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.outbrain",
+    "name": "OutBrain",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.parse.bolts",
+    "name": "Bolts",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.parsely.parselyandroid",
+    "name": "Parse.ly",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.placed.client",
+    "name": "Placed",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.playtestcloud.Analytics",
+    "name": "PlaytestCloud Event Tracking",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.pusher.client",
+    "name": "Pusher",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.pushspring.sdk.PushSpring",
+    "name": "PushSpring",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.pushwoosh",
+    "name": "Pushwoosh",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.pyze",
+    "name": "Pyze",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.qualtrics.digital",
+    "name": "Qualtrics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.radiusnetworks",
+    "name": "Radius Networks",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.retency.sdk.android",
+    "name": "Retency",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.rfm.sdk",
+    "name": "Rubicon Project",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.rnsignal360",
+    "name": "Signal360",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.rollbar.android",
+    "name": "Rollbar",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.salesforce.marketingcloud",
+    "name": "Salesforce Marketing Cloud",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sam4mobile",
+    "name": "S4M",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.scandit",
+    "name": "Scandit",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.scoreloop.client.android",
+    "name": "ScoreLoop",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.segment",
+    "name": "Segment",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sensoro.beacon.kit",
+    "name": "Sensoro",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sensoro.cloud",
+    "name": "Sensoro",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sensorsdata.analytics.android.sdk",
+    "name": "Sensors Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sentiance.sdk",
+    "name": "Sentiance",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.shopkick.fetchers",
+    "name": "Shopkick",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.shopkick.sdk.api",
+    "name": "Shopkick",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.signal360.sdk.core",
+    "name": "Signal360",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.silverpush",
+    "name": "SilverPush",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.singular.sdk",
+    "name": "Singular",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.smaato",
+    "name": "Smaato",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.smartadserver",
+    "name": "Smart",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.snowplowanalytics",
+    "name": "Snowplow",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sonicnotify.sdk.core",
+    "name": "Signal360",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.soomla",
+    "name": "Soomla",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.splunk.mint",
+    "name": "Splunk MINT",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sponsorpay",
+    "name": "Fyber SponsorPay",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sptproximitykit",
+    "name": "Singlespot",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.supersonic.adapters.supersonicads",
+    "name": "Supersonic Ads",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.supersonicads.sdk",
+    "name": "Supersonic Ads",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.swirl",
+    "name": "Swirl",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.sygic.aura",
+    "name": "Exponea",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.taboola",
+    "name": "Taboola",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tagcommander",
+    "name": "TagCommander (Commanders Act.)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tamoco.sdk",
+    "name": "Tamoco",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tapjoy",
+    "name": "Tapjoy",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tapstream.sdk",
+    "name": "Tapstream",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.telequid",
+    "name": "TeleQuid",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.bugly",
+    "name": "Bugly",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.lbs",
+    "name": "Tencent Map LBS",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.map.geolocation",
+    "name": "WeChat Location",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.mm.plugin.location",
+    "name": "WeChat Location",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.mm.plugin.location_google",
+    "name": "WeChat Location",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.mm.plugin.location_soso",
+    "name": "WeChat Location",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.mobwin",
+    "name": "Tencent MobWin",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.mta",
+    "name": "Tencent MTA",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.stat",
+    "name": "Tencent Stats",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.weiyun",
+    "name": "Tencent Weiyun",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tencent.wxop.stat",
+    "name": "Tencent Stats",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tenjin.android",
+    "name": "Tenjin",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tinder.ads",
+    "name": "Tinder Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tinder.analytics",
+    "name": "Tinder Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tl.uic.Tealeaf",
+    "name": "Tealeaf",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tune",
+    "name": "Tune",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.tutelatechnologies.sdk",
+    "name": "Tutela",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.twine.sdk",
+    "name": "Twine Data",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.ubercab.analytics",
+    "name": "Uber Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.ubercab.client.core.analytics",
+    "name": "Uber Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.ubercab.library.metrics.analytics",
+    "name": "Uber Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.ubikod.capptain",
+    "name": "Mobile Engagement",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.uc.crashsdk",
+    "name": "Yueying Crash SDK",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.uc2.crashsdk",
+    "name": "Yueying Crash SDK",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.umeng.analytics",
+    "name": "Umeng Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.umeng.fb",
+    "name": "Umeng Feedback",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.unbotify.mobile.sdk",
+    "name": "Adjust Unbotify",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.urbanairship",
+    "name": "Urbanairship",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.useinsider.insider",
+    "name": "Insider",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.userexperior",
+    "name": "UserExperior",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.visiware.sync2ad.dmp",
+    "name": "Sync2Ad",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.visiware.sync2ad.logger.loggly",
+    "name": "Loggly",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.weborama",
+    "name": "Weborama",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.webtrekk.webtrekksdk",
+    "name": "Webtrekk",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.webtrends.mobile.analytics",
+    "name": "Webtrends",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.webtrends.mobile.android",
+    "name": "Webtrends",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.widespace",
+    "name": "Widespace",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.wootric.androidsdk",
+    "name": "Wootric",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.yandex.metrica",
+    "name": "AppMetrica",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.youappi.sdk",
+    "name": "YouAppi",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "com.zoho.zanalytics",
+    "name": "Zoho Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "de.infonline",
+    "name": "INFOnline",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "in.inmobi",
+    "name": "Inmobi",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.appanalytics.sdk",
+    "name": "AppAnalytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.branch",
+    "name": "Branch",
+    "category": "Attribution",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.didomi.sdk",
+    "name": "Didomi",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.display",
+    "name": "Display",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.fabric",
+    "name": "Google CrashLytics",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.invertase.firebase.crashlytics",
+    "name": "Google CrashLytics",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.keen.client",
+    "name": "Keen",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.opencensus",
+    "name": "OpenTelemetry (OpenCensus, OpenTracing)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.opentelemetry",
+    "name": "OpenTelemetry (OpenCensus, OpenTracing)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.presage",
+    "name": "Ogury Presage",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.radar.sdk.Radar",
+    "name": "Radar",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.repro.android",
+    "name": "Repro",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.sentry",
+    "name": "Sentry",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "io.split.android",
+    "name": "Split",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "jp.maio.sdk",
+    "name": "maio by i-mobile",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "ly.persona.sdk",
+    "name": "Persona.ly",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "mozilla.telemetry.glean",
+    "name": "Mozilla Telemetry",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "net.crowdconnected.androidcolocator",
+    "name": "Colocator",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "net.hockeyapp",
+    "name": "HockeyApp",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.acra",
+    "name": "ACRA",
+    "category": "Crash Reporting",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.alohalytics",
+    "name": "Alohalytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.altbeacon.beacon",
+    "name": "AltBeacon",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.altbeacon.bluetooth",
+    "name": "AltBeacon",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.appcelerator.titanium.analytics",
+    "name": "Appcelerator Analytics",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.lasque.tusdk.core",
+    "name": "Tutucloud",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.lasque.tusdkpulse.core",
+    "name": "Tutucloud",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.matomo",
+    "name": "Matomo (Piwik)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.mozilla.fenix.GleanMetrics",
+    "name": "Mozilla Telemetry",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.mozilla.fenix.components.metrics",
+    "name": "Mozilla Telemetry",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.mozilla.gecko.telemetry",
+    "name": "Mozilla Telemetry",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.mozilla.telemetry",
+    "name": "Mozilla Telemetry",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.nexage",
+    "name": "Nexage",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.piwik",
+    "name": "Matomo (Piwik)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "org.piwik.mobile",
+    "name": "Matomo (Piwik)",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "ru.mail.mrgservice.advertising",
+    "name": "Mail.ru",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "ru.mail.mrgservice.analytics",
+    "name": "Mail.ru",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "schibsted",
+    "name": "Schibsted",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "sdk.insert.io",
+    "name": "Pendo",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "sdk.pendo.io",
+    "name": "Pendo",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "sizmek",
+    "name": "Sizmek",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "tealium",
+    "name": "Tealium",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  },
+  {
+    "package_prefix": "tv.alphonso.service",
+    "name": "Alphonso",
+    "category": "Analytics",
+    "risk_level": "LOW"
+  }
 ]

@@ -1,19 +1,1400 @@
 [
-  {"api": "getDeviceId", "risk_level": "HIGH", "points": 10},
-  {"api": "getLine1Number", "risk_level": "HIGH", "points": 10},
-  {"api": "sendTextMessage", "risk_level": "HIGH", "points": 10},
-  {"api": "getSubscriberId", "risk_level": "HIGH", "points": 10},
-  {"api": "getLastKnownLocation", "risk_level": "HIGH", "points": 10},
-  {"api": "getSimSerialNumber", "risk_level": "HIGH", "points": 10},
-  {"api": "execShell", "risk_level": "HIGH", "points": 10},
-  {"api": "exec", "risk_level": "HIGH", "points": 10},
-  {"api": "getInstalledPackages", "risk_level": "HIGH", "points": 10},
-  {"api": "setWifiEnabled", "risk_level": "HIGH", "points": 10},
-  {"api": "HttpPost", "risk_level": "HIGH", "points": 10},
-  {"api": "openConnection", "risk_level": "HIGH", "points": 10},
-
-  {"api": "getNetworkInfo", "risk_level": "MEDIUM", "points": 5},
-  {"api": "getCellLocation", "risk_level": "MEDIUM", "points": 5},
-  {"api": "listen", "risk_level": "MEDIUM", "points": 5},
-  {"api": "PackageInstaller", "risk_level": "MEDIUM", "points": 5}
+  {
+    "api": "BaseDexClassLoader",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "DatagramSocket",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "DexClassLoader",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "HttpClient",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "HttpGet",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "HttpPost",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "HttpURLConnection",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "OkHttpClient",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "PathClassLoader",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "ProcessBuilder",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Execution"
+  },
+  {
+    "api": "Runtime",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Execution"
+  },
+  {
+    "api": "ServerSocket",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "Socket",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "TYPE_APPLICATION_OVERLAY",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Overlay"
+  },
+  {
+    "api": "TYPE_SYSTEM_ALERT",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Overlay"
+  },
+  {
+    "api": "addGpsStatusListener",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Location"
+  },
+  {
+    "api": "addJavascriptInterface",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "WebView"
+  },
+  {
+    "api": "addOnCellInfoChangedListener",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "addView",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Overlay"
+  },
+  {
+    "api": "blockingGetAuthToken",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Contacts"
+  },
+  {
+    "api": "createCaptureRequest",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "createCaptureSession",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "deletePackage",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "PackageManager"
+  },
+  {
+    "api": "dispatchGesture",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Accessibility"
+  },
+  {
+    "api": "evaluateJavascript",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "WebView"
+  },
+  {
+    "api": "exec",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Execution"
+  },
+  {
+    "api": "execShell",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Execution"
+  },
+  {
+    "api": "findAccessibilityNodeInfosByText",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Accessibility"
+  },
+  {
+    "api": "findAccessibilityNodeInfosByViewId",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Accessibility"
+  },
+  {
+    "api": "forceStopPackage",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "getAccounts",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Contacts"
+  },
+  {
+    "api": "getAccountsByFeature",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Contacts"
+  },
+  {
+    "api": "getAccountsByType",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Contacts"
+  },
+  {
+    "api": "getAuthToken",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Contacts"
+  },
+  {
+    "api": "getCurrentLocation",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Location"
+  },
+  {
+    "api": "getDeviceId",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "getGroupIdLevel1",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "getImei",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "getInstalledApplications",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "PackageManager"
+  },
+  {
+    "api": "getInstalledPackages",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "PackageManager"
+  },
+  {
+    "api": "getLastKnownLocation",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Location"
+  },
+  {
+    "api": "getLine1Number",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "getMeid",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "getRuntime",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Execution"
+  },
+  {
+    "api": "getSimSerialNumber",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "getSubscriberId",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "getVoiceMailNumber",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "installPackage",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "PackageManager"
+  },
+  {
+    "api": "invoke",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "killBackgroundProcesses",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "listenUsingInsecureRfcommWithServiceRecord",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "listenUsingRfcommWithServiceRecord",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "load",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "loadClass",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "loadData",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "WebView"
+  },
+  {
+    "api": "loadDataWithBaseURL",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "WebView"
+  },
+  {
+    "api": "loadDex",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "loadLibrary",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Reflection"
+  },
+  {
+    "api": "loadUrl",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "WebView"
+  },
+  {
+    "api": "lockNow",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "onCallStateChanged",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "onCellLocationChanged",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "onMessageWaitingIndicatorChanged",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "open",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "openConnection",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "performAction",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Accessibility"
+  },
+  {
+    "api": "performGlobalAction",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Accessibility"
+  },
+  {
+    "api": "putSecure",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Settings"
+  },
+  {
+    "api": "reboot",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "registerGnssStatusCallback",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Location"
+  },
+  {
+    "api": "registerTelephonyCallback",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Telephony"
+  },
+  {
+    "api": "removeActiveAdmin",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "requestLocationUpdates",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Location"
+  },
+  {
+    "api": "requestSingleUpdate",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Location"
+  },
+  {
+    "api": "resetPassword",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "sendDataMessage",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "SMS"
+  },
+  {
+    "api": "sendMultipartTextMessage",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "SMS"
+  },
+  {
+    "api": "sendStickyBroadcast",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Broadcast"
+  },
+  {
+    "api": "sendTextMessage",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "SMS"
+  },
+  {
+    "api": "setAllowFileAccess",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "WebView"
+  },
+  {
+    "api": "setAllowUniversalAccessFromFileURLs",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "WebView"
+  },
+  {
+    "api": "setAudioSource",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "setCameraDisabled",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "setDeviceOwner",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "setMobileDataEnabled",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "setPackagesSuspended",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "PackageManager"
+  },
+  {
+    "api": "setScreenCaptureDisabled",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "setVideoSource",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "setWifiEnabled",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Network"
+  },
+  {
+    "api": "startPreview",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "startRecording",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "takePicture",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Media"
+  },
+  {
+    "api": "updateViewLayout",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "Overlay"
+  },
+  {
+    "api": "wipeData",
+    "risk_level": "HIGH",
+    "points": 10,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "BiometricPrompt",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Biometrics"
+  },
+  {
+    "api": "FingerprintManager",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Biometrics"
+  },
+  {
+    "api": "PackageInstaller",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "PackageManager"
+  },
+  {
+    "api": "addAccount",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Contacts"
+  },
+  {
+    "api": "authenticate",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Biometrics"
+  },
+  {
+    "api": "bulkTransfer",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "USB"
+  },
+  {
+    "api": "canDrawOverlays",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Overlay"
+  },
+  {
+    "api": "canWrite",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Settings"
+  },
+  {
+    "api": "claimInterface",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "USB"
+  },
+  {
+    "api": "connect",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Network"
+  },
+  {
+    "api": "controlTransfer",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "USB"
+  },
+  {
+    "api": "createBeam",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "NFC"
+  },
+  {
+    "api": "createDecryptingStream",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Crypto"
+  },
+  {
+    "api": "delete",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "ContentProvider"
+  },
+  {
+    "api": "deleteFile",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "FileSystem"
+  },
+  {
+    "api": "disable",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "divideMessage",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "SMS"
+  },
+  {
+    "api": "enable",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "enableForegroundDispatch",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "NFC"
+  },
+  {
+    "api": "enableReaderMode",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "NFC"
+  },
+  {
+    "api": "forName",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Reflection"
+  },
+  {
+    "api": "getActiveAdmins",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "getActiveNetworkInfo",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Network"
+  },
+  {
+    "api": "getAddress",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "getAllCellInfo",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Location"
+  },
+  {
+    "api": "getAllNetworkInfo",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Network"
+  },
+  {
+    "api": "getAndroidId",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Settings"
+  },
+  {
+    "api": "getAudioSessionId",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Media"
+  },
+  {
+    "api": "getBondedDevices",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "getCallState",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "getCellLocation",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Location"
+  },
+  {
+    "api": "getConnectionInfo",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Network"
+  },
+  {
+    "api": "getDeclaredField",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Reflection"
+  },
+  {
+    "api": "getDeclaredFields",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Reflection"
+  },
+  {
+    "api": "getDeclaredMethod",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Reflection"
+  },
+  {
+    "api": "getDeclaredMethods",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Reflection"
+  },
+  {
+    "api": "getDefault",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "SMS"
+  },
+  {
+    "api": "getDeviceList",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "USB"
+  },
+  {
+    "api": "getExternalFilesDir",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "FileSystem"
+  },
+  {
+    "api": "getExternalStorageDirectory",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "FileSystem"
+  },
+  {
+    "api": "getKey",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Keystore"
+  },
+  {
+    "api": "getKeyStore",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Keystore"
+  },
+  {
+    "api": "getNeighboringCellInfo",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Location"
+  },
+  {
+    "api": "getNetworkCountryIso",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "getNetworkInfo",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Network"
+  },
+  {
+    "api": "getNetworkOperator",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "getNetworkOperatorName",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "getNfcAdapter",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "NFC"
+  },
+  {
+    "api": "getPackageInfo",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "PackageManager"
+  },
+  {
+    "api": "getPrimaryClip",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Clipboard"
+  },
+  {
+    "api": "getRunningAppProcesses",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "getRunningServices",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "getScanResults",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Network"
+  },
+  {
+    "api": "getSecure",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Settings"
+  },
+  {
+    "api": "getSimCountryIso",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "getSimOperator",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "getSimOperatorName",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "getText",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Clipboard"
+  },
+  {
+    "api": "getWindowContentChangeTypes",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Accessibility"
+  },
+  {
+    "api": "goToSleep",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Power"
+  },
+  {
+    "api": "insert",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "ContentProvider"
+  },
+  {
+    "api": "isAdminActive",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "isDeviceOwnerApp",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "DeviceAdmin"
+  },
+  {
+    "api": "listen",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Telephony"
+  },
+  {
+    "api": "openDevice",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "USB"
+  },
+  {
+    "api": "prepare",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Media"
+  },
+  {
+    "api": "putString",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Settings"
+  },
+  {
+    "api": "query",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "ContentProvider"
+  },
+  {
+    "api": "registerReceiver",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Broadcast"
+  },
+  {
+    "api": "removeAccount",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Contacts"
+  },
+  {
+    "api": "removeView",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Overlay"
+  },
+  {
+    "api": "sendBroadcast",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Broadcast"
+  },
+  {
+    "api": "sendOrderedBroadcast",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Broadcast"
+  },
+  {
+    "api": "setAccessible",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Reflection"
+  },
+  {
+    "api": "setJavaScriptEnabled",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "WebView"
+  },
+  {
+    "api": "setOnAccessibilityEventListener",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Accessibility"
+  },
+  {
+    "api": "setPrimaryClip",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Clipboard"
+  },
+  {
+    "api": "setUserData",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Contacts"
+  },
+  {
+    "api": "start",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Execution"
+  },
+  {
+    "api": "startDiscovery",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "startScan",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Network"
+  },
+  {
+    "api": "update",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "ContentProvider"
+  },
+  {
+    "api": "waitFor",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Execution"
+  },
+  {
+    "api": "wakeUp",
+    "risk_level": "MEDIUM",
+    "points": 5,
+    "category": "Power"
+  },
+  {
+    "api": "acquire",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Power"
+  },
+  {
+    "api": "apply",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Storage"
+  },
+  {
+    "api": "bindService",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "canAuthenticate",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Biometrics"
+  },
+  {
+    "api": "commit",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Storage"
+  },
+  {
+    "api": "containsAlias",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Keystore"
+  },
+  {
+    "api": "createEncryptingStream",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Crypto"
+  },
+  {
+    "api": "createTempFile",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "FileSystem"
+  },
+  {
+    "api": "doFinal",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Crypto"
+  },
+  {
+    "api": "edit",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Storage"
+  },
+  {
+    "api": "generateKey",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Crypto"
+  },
+  {
+    "api": "getApplicationInfo",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "PackageManager"
+  },
+  {
+    "api": "getBestProvider",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Location"
+  },
+  {
+    "api": "getCertificate",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Keystore"
+  },
+  {
+    "api": "getContentResolver",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ContentProvider"
+  },
+  {
+    "api": "getDataState",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Telephony"
+  },
+  {
+    "api": "getDefaultSensor",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Sensors"
+  },
+  {
+    "api": "getExternalCacheDir",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "FileSystem"
+  },
+  {
+    "api": "getInstance",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Crypto"
+  },
+  {
+    "api": "getMemoryInfo",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "getName",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Bluetooth"
+  },
+  {
+    "api": "getProviders",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Location"
+  },
+  {
+    "api": "getSensorList",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Sensors"
+  },
+  {
+    "api": "getSharedPreferences",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Storage"
+  },
+  {
+    "api": "getSharedPreferencesName",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Storage"
+  },
+  {
+    "api": "getString",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Settings"
+  },
+  {
+    "api": "getWifiState",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Network"
+  },
+  {
+    "api": "hasPrimaryClip",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Clipboard"
+  },
+  {
+    "api": "init",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Crypto"
+  },
+  {
+    "api": "isInteractive",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Power"
+  },
+  {
+    "api": "isNdefMessage",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "NFC"
+  },
+  {
+    "api": "isNetworkRoaming",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Telephony"
+  },
+  {
+    "api": "isProviderEnabled",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Location"
+  },
+  {
+    "api": "isScreenOn",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Power"
+  },
+  {
+    "api": "mkdir",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "FileSystem"
+  },
+  {
+    "api": "mkdirs",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "FileSystem"
+  },
+  {
+    "api": "newInstance",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Reflection"
+  },
+  {
+    "api": "newWakeLock",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Power"
+  },
+  {
+    "api": "notify",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Notification"
+  },
+  {
+    "api": "onSensorChanged",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Sensors"
+  },
+  {
+    "api": "openFileInput",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "FileSystem"
+  },
+  {
+    "api": "openFileOutput",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "FileSystem"
+  },
+  {
+    "api": "openInputStream",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ContentProvider"
+  },
+  {
+    "api": "openOutputStream",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ContentProvider"
+  },
+  {
+    "api": "queryIntentActivities",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "PackageManager"
+  },
+  {
+    "api": "registerListener",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Sensors"
+  },
+  {
+    "api": "release",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Power"
+  },
+  {
+    "api": "renameTo",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "FileSystem"
+  },
+  {
+    "api": "resolveActivity",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "PackageManager"
+  },
+  {
+    "api": "startActivity",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "startForeground",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Notification"
+  },
+  {
+    "api": "startService",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "stopService",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "ActivityManager"
+  },
+  {
+    "api": "unregisterListener",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Sensors"
+  },
+  {
+    "api": "unregisterReceiver",
+    "risk_level": "LOW",
+    "points": 2,
+    "category": "Broadcast"
+  }
 ]
