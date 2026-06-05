@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# ML model artifacts (if generated locally)
+ml/model.pkl
+
+# Large training dataset
+data/drebin-215-dataset-5560malware-9476-benign.csv
+
+# Generated audit files
+PROJECT_AUDIT.md
+AUDIT_SUMMARY.md
+
+# Temporary / local environment files
+*.env
+.env.*

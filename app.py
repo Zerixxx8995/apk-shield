@@ -112,7 +112,7 @@ def analyze_uploaded_apk(file_path):
     
     status_text.text("[✓] Calculating risk score...")
     opc_data = analyze_opcodes(analysis_obj, enable_deep_opcode)
-    risk_data = calculate_risk(perm_data, api_data, comp_data, str_data, trk_data, opc_data)
+    risk_data = calculate_risk(perm_data, api_data, comp_data, str_data, trk_data, opc_data, apk_obj, analysis_obj)
     progress_bar.progress(100)
     
     time.sleep(0.5)
